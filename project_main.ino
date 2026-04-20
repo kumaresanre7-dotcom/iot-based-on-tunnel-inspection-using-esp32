@@ -1,7 +1,7 @@
 //connection for blynk software
-#define BLYNK_TEMPLATE_ID "TMPL3yQKbRHih"
-#define BLYNK_TEMPLATE_NAME "GAS"
-#define BLYNK_AUTH_TOKEN "kwnywz4dwqeEViCdp9zefrNRrVkjF4gS"
+#define BLYNK_TEMPLATE_ID "your template id"
+#define BLYNK_TEMPLATE_NAME "your template name"
+#define BLYNK_AUTH_TOKEN "your template auth_token key"
 
 //library import for the project
 #include <WiFi.h>
@@ -12,8 +12,8 @@
 #define BLYNK_PRINT Serial
 
 // WiFi
-char ssid[] = "Sunny";
-char pass[] = "12345678";
+char ssid[] = "your wifi name";
+char pass[] = "your wifi password";
 
 // ---------------- MQ Sensors ----------------
 #define MQ2_PIN 34
