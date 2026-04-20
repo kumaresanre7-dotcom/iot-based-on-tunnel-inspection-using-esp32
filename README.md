@@ -52,13 +52,14 @@ Sending camera stream link to the main ESP32
 ## Project Folder Structure
 IoT-Based-Tunnel-Inspection-Rover-using-ESP32
 │
+│
 ├──project main.ino
+│
 │
 ├── esp32 camera.ino 
 │ 
+│
 └── README.md
-
----
 
 ## Working Principle
 
