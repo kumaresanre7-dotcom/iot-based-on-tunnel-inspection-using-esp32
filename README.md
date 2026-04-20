@@ -30,9 +30,43 @@ UART (ESP32-CAM serial), I2C (sensor bus), PWM (motor control)
 - Embedded C / C++
 - Blynk IoT Platform
 - Libraries: BlynkSimpleEsp32, ESP32CAM
-
+  
 ## System Architecture
-[Add your block diagram image here]
+The rover system is divided into two main modules:
+
+1. Rover Controller (ESP32)
+Handles:
+
+Motor control
+Sensor data acquisition
+Blynk communication
+Obstacle detection
+Gas monitoring
+2. Camera Controller (ESP32-CAM)
+Handles:
+
+Camera initialization
+Video streaming server
+Sending camera stream link to the main ESP32
+
+## Project Folder Structure
+IoT-Based-Tunnel-Inspection-Rover-using-ESP32
+│
+├──project main.ino
+│
+├── esp32 camera.ino 
+│ 
+└── README.md
+
+---
+
+## Working Principle
+
+1. The **ESP32 connects to WiFi** and communicates with the **Blynk IoT platform**.
+2. Sensor data (gas levels, temperature, humidity, and distance) is continuously monitored.
+3. If dangerous conditions are detected, alerts are sent to the **Blynk mobile application**.
+4. The **ESP32-CAM streams live video** from the rover.
+5. The rover can be controlled remotely through in **Blynk virtual buttons**.
 
 ## How to Run
 1. Clone this repo
@@ -43,4 +77,4 @@ UART (ESP32-CAM serial), I2C (sensor bus), PWM (motor control)
 6. Open Blynk app and connect
 
 ## Author
-R E Kumaresan — [LinkedIn](your-linkedin-url) | kumaresanre7@gmail.com
+R E Kumaresan — [LinkedIn] https://www.linkedin.com/in/r-e-kumaresan-9a4a59264| kumaresanre7@gmail.com
