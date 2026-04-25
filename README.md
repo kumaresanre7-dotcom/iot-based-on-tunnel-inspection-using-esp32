@@ -52,17 +52,18 @@ Sending camera stream link to the main ESP32
 ## Project Folder Structure
 IoT-Based-Tunnel-Inspection-Rover-using-ESP32
 
-│
-│
-├──project main.ino
-
-│
-│
-├── esp32 camera.ino 
-
-│ 
-│
-└── README.md
+repo/
+├── README.md              ← Professional readme with all 4 photos + hardware table
+├── index.html   ← Visual project showcase (works as GitHub Pages website) 
+├── 
+├── 
+├── firmware/
+│   └── rover_main.ino     ← Full working ESP32 firmware with Blynk + all sensors
+└── images/
+    ├── rover_top.jpg
+    ├── rover_front.jpg
+    ├── rover_side1.jpg
+    └── rover_side2.jpg
 
 ## Working Principle
 
